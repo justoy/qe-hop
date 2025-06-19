@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const generateBtn = document.getElementById('generate-btn');
     const copyBtn = document.getElementById('copy-btn');
     const qrcodeContainer = document.getElementById('qrcode-container');
+    const urlDisplayContainer = document.getElementById('url-display-container');
+    const encodedUrlElement = document.getElementById('encoded-url');
 
     // 页面加载时检查 URL hash
     function checkHashOnLoad() {
@@ -48,6 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // 2. 构建包含 hash 的 URL
         const url = `${window.location.origin}${window.location.pathname}#${encodedData}`;
+        encodedUrlElement.textContent = url;
+        urlDisplayContainer.style.display = 'block';
 
         // 3. 生成二维码
         qrcodeContainer.innerHTML = ''; // 清空旧的二维码

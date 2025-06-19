@@ -4,8 +4,8 @@
 
 Ever needed to quickly send a URL from your phone to your tablet, or a piece of text from your desktop to your phone without the hassle of messaging apps or email? QR-Hop is your private, instant bridge.
 
-![QR-Hop Demo](https://user-images.githubusercontent.com/your_username/your_repo/assets/demo.gif)  
-*(建议：你可以用屏幕录制软件录制一个使用过程的 GIF，然后替换上面的链接)*
+
+QR-Hop Demo: https://qe-hop.vercel.app
 
 ---
 
@@ -13,7 +13,7 @@ Ever needed to quickly send a URL from your phone to your tablet, or a piece of 
 
 *   **⚡️ Blazing Fast:** Instant QR code generation and text transfer.
 *   **🔒 Private & Secure:** Purely client-side. Your data is encoded directly into the URL and never touches a server. No logs, no tracking.
-*   **- サーバーなし (Serverless):** No backend, no database, no sign-up required. It's just you, your devices, and the magic of the web.
+*   **☁️ Serverless:** No backend, no database, no sign-up required. It's just you, your devices, and the magic of the web.
 *   **📱 Mobile First:** A clean, responsive, and dark-mode-friendly interface that works beautifully on phones, tablets, and desktops.
 *   **🚀 One-Click Deploy:** Deploy your own private instance to Vercel in seconds.
 *   **📖 Open Source:** Simple, clean code. Feel free to inspect, modify, and contribute.

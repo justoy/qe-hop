@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>跨设备文本传输</title>
+    <title>Cross-Device Text Transfer</title>
     <link rel="stylesheet" href="style.css">
-    <!-- 引入 QR Code 生成库 -->
+    <!-- QR Code generation library -->
     <script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>跨设备文本传输</h1>
-        <p>在此处粘贴文本，然后生成二维码</p>
+        <h1>Cross-Device Text Transfer</h1>
+        <p>Paste your text here, then generate a QR code</p>
         
-        <textarea id="text-input" rows="8" placeholder="粘贴网址、密码或任何文本..."></textarea>
+        <textarea id="text-input" rows="8" placeholder="Paste a URL, password, or any text..."></textarea>
         
         <div class="buttons">
-            <button id="generate-btn">生成二维码</button>
-            <button id="copy-btn">复制到剪贴板</button>
+            <button id="generate-btn">Generate QR Code</button>
+            <button id="copy-btn">Copy to Clipboard</button>
         </div>
         
         <div id="qrcode-container"></div>
+        <div id="url-display-container" style="display: none;">
+            <code id="encoded-url"></code>
+        </div>
     </div>
     
     <script src="script.js"></script>
