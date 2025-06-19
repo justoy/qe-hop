@@ -5,7 +5,7 @@
 Ever needed to quickly send a URL from your phone to your tablet, or a piece of text from your desktop to your phone without the hassle of messaging apps or email? QR-Hop is your private, instant bridge.
 
 
-QR-Hop Demo: https://qe-hop.vercel.app
+QR-Hop Demo: https://qr-hop.vercel.app
 
 ---
 
